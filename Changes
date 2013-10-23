@@ -1,4 +1,8 @@
-Revision history for Acme-Indent
+Revision history for Perl module Acme::Indent
 
-0.01    11 Mar 2012
-        First version, released on an unsuspecting world.
+0.01 2012-03-11
+ - First version, released on an unsuspecting world.
+
+0.02 2013-10-23
+ - Bump version number after pulled from
+   https://github.com/sergeyromanov/Acme-Indent/commit/c4923d10495853ea508b5f70820be6b22d1be82a
