@@ -9,7 +9,7 @@ require Exporter;
 our @ISA       = qw(Exporter);
 our @EXPORT    = qw(ai);
 our @EXPORT_OK = qw();
-our $VERSION   = '0.02';
+our $VERSION   = '0.03';
 
 sub ai {
     my @lines = split m{\n}xms, $_[0];

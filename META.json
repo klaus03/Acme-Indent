@@ -4,7 +4,7 @@
       "Klaus Eichner <klaus03@gmail.com>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4005, CPAN::Meta::Converter version 2.130880",
+   "generated_by" : "ExtUtils::MakeMaker version 6.98, CPAN::Meta::Converter version 2.141170",
    "license" : [
       "perl_5"
    ],
@@ -13,24 +13,34 @@
       "version" : "2"
    },
    "name" : "Acme-Indent",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "inc"
+      ]
+   },
    "prereqs" : {
+      "build" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
       "configure" : {
          "requires" : {
-            "Module::Build" : "0"
+            "ExtUtils::MakeMaker" : "0"
          }
-      }
-   },
-   "provides" : {
-      "Acme::Indent" : {
-         "file" : "lib/Acme/Indent.pm",
-         "version" : "0.02"
+      },
+      "runtime" : {
+         "requires" : {}
       }
    },
    "release_status" : "stable",
    "resources" : {
-      "license" : [
-         "http://dev.perl.org/licenses/"
-      ]
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/klaus03/Acme-Indent.git",
+         "web" : "https://github.com/klaus03/Acme-Indent"
+      }
    },
-   "version" : "0.02"
+   "version" : "0.03"
 }
