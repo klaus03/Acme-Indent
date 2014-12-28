@@ -1,4 +1,10 @@
-Revision history for Acme::Indent
+Revision history for Acme-Indent
+
+0.04 - 2014-12-28T09:24:30+01:00
+
+  [DOCUMENTATION]
+
+  - Migrate to Dist::Zilla
 
 0.03 - 2014-09-07T19:11:40+01:00
 
